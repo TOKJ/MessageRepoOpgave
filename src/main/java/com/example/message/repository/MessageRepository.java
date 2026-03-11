@@ -26,7 +26,7 @@ public class MessageRepository {
     }
 
     private void populateMessages() {
-        while (messageId <= 100) {
+        while (messageId <= 10) {
             messages.add(new Message(messageId, "Velkommen til " + messageId + ".semester"));
             messageId++;
         }
